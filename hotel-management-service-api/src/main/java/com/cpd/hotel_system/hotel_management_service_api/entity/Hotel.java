@@ -12,7 +12,7 @@ import java.sql.Blob;
 @Table(name = "hotel")
 public class Hotel {
     @Id
-    @Column(name = "hotel_id")
+    @Column(name = "hotel_id", length = 80)
     private String hotelIDd;
 
     @Column(name = "hotel_name", nullable = false, length = 100)
