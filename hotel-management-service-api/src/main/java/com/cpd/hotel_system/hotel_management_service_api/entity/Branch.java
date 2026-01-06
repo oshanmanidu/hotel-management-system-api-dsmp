@@ -26,9 +26,9 @@ public class Branch {
     @JoinColumn(name = "hotel_id")
     private Hotel hotel;
 
-    @OneToOne(mappedBy = "brach")
+    @OneToOne(mappedBy = "branch")
     private Address address;
 
-    @OneToMany(mappedBy = "brach")
+    @OneToMany(mappedBy = "branch")
     private List<Room> rooms;
 }
