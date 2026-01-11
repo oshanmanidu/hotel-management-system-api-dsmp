@@ -1,4 +1,4 @@
-package com.cpd.hotel_system.hotel_management_service_api.dto.request;
+package com.cpd.hotel_system.hotel_management_service_api.dto.response;
 
 import lombok.*;
 
@@ -10,11 +10,11 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Builder
 
-public class RequestAddressDto {
+public class ResponseAddressDto {
     private String addressLine;
     private String city;
     private String country;
-    private BigDecimal lattitude;
+    private BigDecimal latitude;
     private BigDecimal longitude;
-    private String baranchId;
+    private String branchId;
 }

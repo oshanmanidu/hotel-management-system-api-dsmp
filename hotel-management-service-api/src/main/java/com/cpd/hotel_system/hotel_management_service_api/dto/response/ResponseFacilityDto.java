@@ -1,4 +1,4 @@
-package com.cpd.hotel_system.hotel_management_service_api.dto.request;
+package com.cpd.hotel_system.hotel_management_service_api.dto.response;
 
 import lombok.*;
 
@@ -7,7 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class RequestFacilityDto {
+
+public class ResponseFacilityDto {
+    private Long id;
     private String name;
     private String roomId;
 }
